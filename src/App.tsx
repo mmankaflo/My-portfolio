@@ -91,46 +91,44 @@ function Projects() {
         href="https://mern-notepad.onrender.com/" 
         target="_blank" rel="noopener noreferrer" 
         className="block rounded-lg overflow-hidden shadow hover:shadow-lg transition duration-300 bg-white">
-
-        <img
-  src="/assets/images/thinkboard.png"
-  alt="Thinkboard"
-  className="w-full h-auto rounded-md shadow-md"
-  style={{
-    marginTop: '1rem',
-    maxWidth: '100%',
-    width: '320px',
-    borderRadius: '8px',
-    boxShadow: '0 1px 4px rgba(100,108,255,0.07)'
-  }}
-/> 
- <h3>Note Pad</h3>
-            <p>Create, save, edit and delete your notes.</p>
-          </a>
-        </div>
-         <div className="project-card">
+          <img
+            src="/assets/images/thinkboard.png"
+            alt="Thinkboard"
+            className="w-full h-auto rounded-md shadow-md"
+            style={{
+              marginTop: '1rem',
+              maxWidth: '100%',
+              width: '320px',
+              borderRadius: '8px',
+              boxShadow: '0 1px 4px rgba(100,108,255,0.07)'
+            }}
+          /> 
+          <h3>Note Pad</h3>
+          <p>Create, save, edit and delete your notes.</p>
+        </a>
+      </div>
+      <div className="project-card">
         <a 
         href="https://drive.google.com/file/d/1i2V2bGmoFqJ7q-gAy-X5akwDOqfyG6mE/view" 
         target="_blank" rel="noopener noreferrer" 
         className="block rounded-lg overflow-hidden shadow hover:shadow-lg transition duration-300 bg-white">
-
-        <img
-  src="/assets/images/recipe.jpg"
-  alt="Thinkboard"
-  className="w-full h-auto rounded-md shadow-md"
-  style={{
-    marginTop: '1rem',
-    maxWidth: '100%',
-    width: '320px',
-    borderRadius: '8px',
-    boxShadow: '0 1px 4px rgba(100,108,255,0.07)'
-  }}
-/> 
- <h3>Recipe Finder</h3>
-            <p>Sign up, find a recipe or search for one, get the ingredients and instructions, save to favorites, watch the tutorial and log out.</p>
-          View Project Demo
-          </a>
-        </div>
+          <img
+            src="/assets/images/recipe.jpg"
+            alt="Recipe Finder"
+            className="w-full h-auto rounded-md shadow-md"
+            style={{
+              marginTop: '1rem',
+              maxWidth: '100%',
+              width: '320px',
+              borderRadius: '8px',
+              boxShadow: '0 1px 4px rgba(100,108,255,0.07)'
+            }}
+          /> 
+          <h3>Recipe Finder</h3>
+          <p>Sign up, find a recipe or search for one, get the ingredients and instructions, save to favorites, watch the tutorial and log out.</p>
+          <span>View Project Demo</span>
+        </a>
+      </div>
       </div>
 </section>
   );
