@@ -92,7 +92,7 @@ function Projects() {
         target="_blank" rel="noopener noreferrer" 
         className="block rounded-lg overflow-hidden shadow hover:shadow-lg transition duration-300 bg-white">
           <img
-            src="/assets/images/thinkboard.png"
+            src="/src/assets/images/thinkboard.png"
             alt="Thinkboard"
             className="w-full h-auto rounded-md shadow-md"
             style={{
@@ -113,7 +113,7 @@ function Projects() {
         target="_blank" rel="noopener noreferrer" 
         className="block rounded-lg overflow-hidden shadow hover:shadow-lg transition duration-300 bg-white">
           <img
-            src="/assets/images/recipe.jpg"
+            src="/src/assets/images/recipe.jpg"
             alt="Recipe Finder"
             className="w-full h-auto rounded-md shadow-md"
             style={{
@@ -141,18 +141,18 @@ function Certificates() {
       <ul className="certificates-list">
         <li className="certificate-item">
           <span className="certificate-title">Introduction to coding</span>
-          <img src="/assets/images/coding.png" alt="web development dertificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
+          <img src="/src/assets/images/coding.png" alt="web development dertificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
           <span className="certificate-org">SheCodes</span>
         </li>
         <li className="certificate-item">
           <span className="certificate-title">Introduction to Web Development</span>
-          <img src="/assets/images/web.png" alt="coding certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
+          <img src="/src/assets/images/web.png" alt="coding certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
           <span className="certificate-org">SheCodes</span>
         </li>
         <li className="certificate-item">
           <span className="certificate-title">AI Fluency Course</span>
           <span className="certificate-org">Microsoft</span>
-          <img src="/assets/images/ai-fluency.png" alt="AI Fluency Course certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
+          <img src="/src/assets/images/ai-fluency.png" alt="AI Fluency Course certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
         </li>
         <li className="certificate-item">
           <span className="certificate-title">Full Stack Development</span>
