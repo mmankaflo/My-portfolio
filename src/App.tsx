@@ -4,6 +4,8 @@ import recipeImg from './assets/images/recipe.jpg';
 import codingImg from './assets/images/coding.png';
 import webImg from './assets/images/web.png';
 import aiFluencyImg from './assets/images/ai-fluency.png';
+import pythonImg from './assets/images/python.jpg';
+import javascriptImg from './assets/images/javascript.jpg';
 
 function AboutMe() {
   return (
@@ -153,6 +155,16 @@ function Certificates() {
           <span className="certificate-title">Introduction to Web Development</span>
           <img src={webImg} alt="coding certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
           <span className="certificate-org">SheCodes</span>
+        </li>
+        <li className="certificate-item">
+          <span className="certificate-title">Introduction to Python</span>
+          <img src={pythonImg} alt="coding certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
+          <span className="certificate-org">CodeFirstGirls</span>
+        </li>
+        <li className="certificate-item">
+          <span className="certificate-title">Introduction to Javascript</span>
+          <img src={javascriptImg} alt="coding certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
+          <span className="certificate-org">CodeFirstGirls</span>
         </li>
         <li className="certificate-item">
           <span className="certificate-title">AI Fluency Course</span>
