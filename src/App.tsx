@@ -6,6 +6,7 @@ import webImg from './assets/images/web.png';
 import aiFluencyImg from './assets/images/ai-fluency.png';
 import pythonImg from './assets/images/python.jpg';
 import javascriptImg from './assets/images/javascript.jpg';
+import image0Img from './assets/images/image0.jpeg';
 
 function AboutMe() {
   return (
@@ -176,6 +177,11 @@ function Certificates() {
           <span className="certificate-org">Power Learn Project</span>
           <span className="certificate-name">PENDING...</span>
         </li>
+        <li className="certificate-item">
+          <span className="certificate-title">Full Stack Development</span>
+          <span className="certificate-org">FNB APP ACADEMY</span>
+          <img src={image0Img} alt="full stack develepment certificate" className="certificate-img" style={{marginTop: '1rem', maxWidth: '100%', width: '320px', borderRadius: '8px', boxShadow: '0 1px 4px rgba(100,108,255,0.07)'}} />
+        </li>
       </ul>
     </section>
   );
@@ -232,7 +238,7 @@ function App() {
             >
               Hire me
             </a>
-            <a href="/cv.pdf" download className="download-cv-btn">Download my CV</a>
+            <a href="/Resume F.pdf" download className="download-cv-btn">Download my CV</a>
           </div>
         </header>
         <main>
